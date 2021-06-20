@@ -1,0 +1,28 @@
+{
+  "name": "@pallad/snapshottable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compiled/index.js",
+  "types": "compiled/index.d.ts",
+  "scripts": {
+    "lint": "pallad-scripts lint",
+    "compile": "pallad-scripts compile",
+    "prepublishOnly": "npm run compile"
+  },
+  "files": [
+    "compiled"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallad-ts/snapshottable.git"
+  },
+  "author": "Łukasz Kużyński <lukasz.kuzynski@gmail.com> (http://wookieb.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pallad-ts/snapshottable/issues"
+  },
+  "homepage": "https://github.com/pallad-ts/snapshottable#readme",
+  "devDependencies": {
+    "@pallad/scripts": "^2.0.0-alpha.12"
+  }
+}
